@@ -24,7 +24,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 # Bootstrap for css rendering
 gem 'bootstrap-sass',       '3.2.0.0'
-
+# Encryption of password
+gem 'bcrypt',	'3.1.7'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
