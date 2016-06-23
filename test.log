@@ -1,0 +1,129 @@
+Started
+
+
+
+Progress: |[0m[1000D[K[31mERROR[0m["test_should_get_new", SessionsControllerTest, 2016-06-21 22:53:58 +0200]
+ test_should_get_new#SessionsControllerTest (1466542438.56s)
+SyntaxError:         SyntaxError: /home/arnaud/Dev/tutorial/RoR/sample_app/app/helpers/sessions_helper.rb:20: syntax error, unexpected ']', expecting ')'
+        	    user = User.find_by(id: :user_id])
+        	                                     ^
+            app/controllers/application_controller.rb:1:in `<top (required)>'
+            app/controllers/sessions_controller.rb:1:in `<top (required)>'
+        app/controllers/application_controller.rb:1:in `<top (required)>'
+        app/controllers/sessions_controller.rb:1:in `<top (required)>'
+
+[32m=[0m[32m=[0m[32m=[0m[0m[1000D[K[31mERROR[0m["test_invalid_signup_information", UsersSignupTest, 2016-06-21 22:53:58 +0200]
+ test_invalid_signup_information#UsersSignupTest (1466542438.83s)
+ActionView::Template::Error:         ActionView::Template::Error: undefined method `logged_in?' for #<#<Class:0x00000003fe30f0>:0x00000003fe22b8>
+            app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__3336677003534956760_55707540'
+            app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__3389126870322984655_33286140'
+            test/integration/users_signup_test.rb:6:in `block in <class:UsersSignupTest>'
+        app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__3336677003534956760_55707540'
+        app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__3389126870322984655_33286140'
+        test/integration/users_signup_test.rb:6:in `block in <class:UsersSignupTest>'
+
+[32m=[0m[32m=[0m[32m=[0m[32m=[0m[0m[1000D[K[31mERROR[0m["test_valid_signup_information", UsersSignupTest, 2016-06-21 22:53:58 +0200]
+ test_valid_signup_information#UsersSignupTest (1466542438.88s)
+ActionView::Template::Error:         ActionView::Template::Error: undefined method `logged_in?' for #<#<Class:0x00000003fe30f0>:0x00000003f700c8>
+            app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__3336677003534956760_55707540'
+            app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__3389126870322984655_33286140'
+            test/integration/users_signup_test.rb:18:in `block in <class:UsersSignupTest>'
+        app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__3336677003534956760_55707540'
+        app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__3389126870322984655_33286140'
+        test/integration/users_signup_test.rb:18:in `block in <class:UsersSignupTest>'
+
+[32m=[0m[32m=[0m[32m=[0m[32m=[0m[0m[1000D[K[31mERROR[0m["test_layout_links", SiteLayoutTest, 2016-06-21 22:53:58 +0200]
+ test_layout_links#SiteLayoutTest (1466542438.91s)
+ActionView::Template::Error:         ActionView::Template::Error: undefined method `logged_in?' for #<#<Class:0x00000006a98390>:0x00000006a57980>
+            app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__3336677003534956760_55707540'
+            app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__3389126870322984655_33286140'
+            test/integration/site_layout_test.rb:6:in `block in <class:SiteLayoutTest>'
+        app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__3336677003534956760_55707540'
+        app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__3389126870322984655_33286140'
+        test/integration/site_layout_test.rb:6:in `block in <class:SiteLayoutTest>'
+
+[32m=[0m[32m=[0m[32m=[0m[32m=[0m[0m[1000D[K[31mERROR[0m["test_login_with_invalid_information", UsersLoginTest, 2016-06-21 22:53:58 +0200]
+ test_login_with_invalid_information#UsersLoginTest (1466542438.92s)
+SyntaxError:         SyntaxError: /home/arnaud/Dev/tutorial/RoR/sample_app/app/helpers/sessions_helper.rb:20: syntax error, unexpected ']', expecting ')'
+        	    user = User.find_by(id: :user_id])
+        	                                     ^
+            app/controllers/sessions_controller.rb:1:in `<top (required)>'
+            test/integration/users_login_test.rb:10:in `block in <class:UsersLoginTest>'
+        app/controllers/sessions_controller.rb:1:in `<top (required)>'
+        test/integration/users_login_test.rb:10:in `block in <class:UsersLoginTest>'
+
+[0m[1000D[K[31mERROR[0m["test_login_with_valid_information", UsersLoginTest, 2016-06-21 22:53:58 +0200]
+ test_login_with_valid_information#UsersLoginTest (1466542438.95s)
+ActionView::Template::Error:         ActionView::Template::Error: undefined method `logged_in?' for #<#<Class:0x0000000691ace8>:0x0000000691a3b0>
+            app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__3336677003534956760_55707540'
+            app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__3389126870322984655_33286140'
+            test/integration/users_login_test.rb:20:in `block in <class:UsersLoginTest>'
+        app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__3336677003534956760_55707540'
+        app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__3389126870322984655_33286140'
+        test/integration/users_login_test.rb:20:in `block in <class:UsersLoginTest>'
+
+[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[0m[1000D[K[31mERROR[0m["test_login_with_valid_information_followed_by_logout", UsersLoginTest, 2016-06-21 22:53:58 +0200]
+ test_login_with_valid_information_followed_by_logout#UsersLoginTest (1466542438.98s)
+ActionView::Template::Error:         ActionView::Template::Error: undefined method `logged_in?' for #<#<Class:0x0000000691ace8>:0x000000066eec80>
+            app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__3336677003534956760_55707540'
+            app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__3389126870322984655_33286140'
+            test/integration/users_login_test.rb:32:in `block in <class:UsersLoginTest>'
+        app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__3336677003534956760_55707540'
+        app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__3389126870322984655_33286140'
+        test/integration/users_login_test.rb:32:in `block in <class:UsersLoginTest>'
+
+[32m=[0m[32m=[0m[32m=[0m[32m=[0m[0m[1000D[K[31mERROR[0m["test_should_get_home", StaticPagesControllerTest, 2016-06-21 22:53:59 +0200]
+ test_should_get_home#StaticPagesControllerTest (1466542439.01s)
+ActionView::Template::Error:         ActionView::Template::Error: undefined method `logged_in?' for #<#<Class:0x00000006a98390>:0x0000000659aa00>
+            app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__3336677003534956760_55707540'
+            app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__3389126870322984655_33286140'
+            test/controllers/static_pages_controller_test.rb:5:in `block in <class:StaticPagesControllerTest>'
+        app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__3336677003534956760_55707540'
+        app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__3389126870322984655_33286140'
+        test/controllers/static_pages_controller_test.rb:5:in `block in <class:StaticPagesControllerTest>'
+
+[32m=[0m[32m=[0m[32m=[0m[0m[1000D[K[31mERROR[0m["test_should_get_about", StaticPagesControllerTest, 2016-06-21 22:53:59 +0200]
+ test_should_get_about#StaticPagesControllerTest (1466542439.02s)
+ActionView::Template::Error:         ActionView::Template::Error: undefined method `logged_in?' for #<#<Class:0x00000006a98390>:0x00000007897cc0>
+            app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__3336677003534956760_55707540'
+            app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__3389126870322984655_33286140'
+            test/controllers/static_pages_controller_test.rb:17:in `block in <class:StaticPagesControllerTest>'
+        app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__3336677003534956760_55707540'
+        app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__3389126870322984655_33286140'
+        test/controllers/static_pages_controller_test.rb:17:in `block in <class:StaticPagesControllerTest>'
+
+[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[0m[1000D[K[31mERROR[0m["test_should_get_contact", StaticPagesControllerTest, 2016-06-21 22:53:59 +0200]
+ test_should_get_contact#StaticPagesControllerTest (1466542439.04s)
+ActionView::Template::Error:         ActionView::Template::Error: undefined method `logged_in?' for #<#<Class:0x00000006a98390>:0x00000007a85b18>
+            app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__3336677003534956760_55707540'
+            app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__3389126870322984655_33286140'
+            test/controllers/static_pages_controller_test.rb:23:in `block in <class:StaticPagesControllerTest>'
+        app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__3336677003534956760_55707540'
+        app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__3389126870322984655_33286140'
+        test/controllers/static_pages_controller_test.rb:23:in `block in <class:StaticPagesControllerTest>'
+
+[32m=[0m[32m=[0m[32m=[0m[32m=[0m[0m[1000D[K[31mERROR[0m["test_should_get_help", StaticPagesControllerTest, 2016-06-21 22:53:59 +0200]
+ test_should_get_help#StaticPagesControllerTest (1466542439.06s)
+ActionView::Template::Error:         ActionView::Template::Error: undefined method `logged_in?' for #<#<Class:0x00000006a98390>:0x00000006358dc8>
+            app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__3336677003534956760_55707540'
+            app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__3389126870322984655_33286140'
+            test/controllers/static_pages_controller_test.rb:11:in `block in <class:StaticPagesControllerTest>'
+        app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__3336677003534956760_55707540'
+        app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__3389126870322984655_33286140'
+        test/controllers/static_pages_controller_test.rb:11:in `block in <class:StaticPagesControllerTest>'
+
+[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[0m[1000D[K[31mERROR[0m["test_should_get_new", UsersControllerTest, 2016-06-21 22:53:59 +0200]
+ test_should_get_new#UsersControllerTest (1466542439.13s)
+ActionView::Template::Error:         ActionView::Template::Error: undefined method `logged_in?' for #<#<Class:0x00000003fe30f0>:0x00000006088bc0>
+            app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__3336677003534956760_55707540'
+            app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__3389126870322984655_33286140'
+            test/controllers/users_controller_test.rb:5:in `block in <class:UsersControllerTest>'
+        app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__3336677003534956760_55707540'
+        app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__3389126870322984655_33286140'
+        test/controllers/users_controller_test.rb:5:in `block in <class:UsersControllerTest>'
+
+[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m|
+
+Finished in 0.74346s
+23 tests, 19 assertions, [31m0 failures, 12 errors, [0m[33m0 skips[0m
+]2;[Minitest results] 23 tests
